@@ -68,6 +68,7 @@ Below is Request Body:
 	"username": "Manik",
 	"password":"jwt"
 }
+
 Response:
 
 1. Name: accessToken, Description: use this accesToken to make further requests.
