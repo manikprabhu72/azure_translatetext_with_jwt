@@ -17,6 +17,7 @@ Testing from Postman:
 
 1. Enter the above URL and in the request body, select type as raw and from the dropdown select JSON.
 2. Pass the above required params in the body in JSON format.
+
 Ex:
 {
 	"translateTo": ["de", "it","ar"],
