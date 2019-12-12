@@ -19,11 +19,7 @@ Testing from Postman:
 2. Pass the above required params in the body in JSON format.
 
 Ex:
-{
-	"translateTo": ["de", "it","ar"],
-	"text": "How are you"
-
-}
+{"translateTo": ["de", "it","ar"],"text": "How are you"}
 
 Sample Response:
 [
