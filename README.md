@@ -48,7 +48,11 @@ Sample Response:
 
 II. Testing with JWT:
 
-Two requests to be made. one is to authenticate and get jwt. Use the jwt to translate the text.
+Two requests to be made.
+
+one is to authenticate and get jwt. 
+
+second one to translate the text using the jwt from the first .
 
 Endpoint 1:
 
@@ -81,7 +85,9 @@ POST
 http://68.183.144.13:4000/user/translate
 
 Body Params: Same as Section I Endpoint.
+
 Headers:
+
 1. key: 'Authorization', value: Access token from the endpoint 1 (ex: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiTWFuaWsiLCJpYXQiOjE1NzYxMTcxMDcsImV4cCI6MTU3NjExNzgyN30.qsz9Q7jtgP0nsW2UWEJJ6fHSa7vUk4RWrYH59Sxm2ss ).
 
 Response:
