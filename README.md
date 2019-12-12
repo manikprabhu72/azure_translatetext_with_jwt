@@ -62,6 +62,8 @@ Body Params:
 1. Name: username, value:"Manik", Required. Hardcoded username.
 2. Name: password, value: "jwt", Required. Hardcoded password.
 
+Below is Request Body:
+
 {
 	"username": "Manik",
 	"password":"jwt"
